@@ -21,16 +21,16 @@ terraform {
 }
 
 variable "auth0_domain" {
-  default     = "https://dev-hmfv3bt5bcxcuozz.us.auth0.com"
+  default     = "https://us.auth0.com"
   description = "Auth0 domain"
 }
 
 variable "auth0_client_id" {
-  default     = "KXANEBl888BewpB47aNPShSuB5GkEQu6"  
+  default     = ""  
   description = "Auth0 client ID"
 }
 
 variable "auth0_client_secret" {
-  default     = "M0S7nm8WK_MBaZmBP_aV3jb1VDxdCcfhFSgpvDs8Bi-g6sCpQr7PEFlqMf3Kyb7p"  
+  default     = ""  
   description = "Auth0 client secret"
 }
